@@ -150,6 +150,10 @@ img {
 
  @media screen and (max-width:480px){
 
+    .container{
+        padding: 0 10px;
+
+    }
     .row {
         display: flex;
         flex-direction: column;
@@ -175,6 +179,7 @@ img {
     }
     .why-us .col-right {
         width: 75%;
+        padding: 0;
     }
     h1{
         margin-bottom: 2rem;
@@ -182,4 +187,36 @@ img {
     h2{
         padding: 15px 31px;
     }
- }
+}
+@media screen and (min-width:769px){
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+.lessons .col {
+    width: 30%;
+}
+.text{
+    /* width: 50%; */
+    /* text-align: end; */
+    margin: 0 auto;
+
+}
+.steps .col {
+    width: calc(100% / 12*3);
+}
+.why-us .col-left {
+width: calc(100% / 12 *3);
+}
+.why-us .col-right {
+    width: calc(100% / 12 *4);
+    }
+
+}
